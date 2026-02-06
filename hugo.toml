@@ -1,22 +1,27 @@
 baseURL = "https://dawissl.github.io/"
 languageCode = "cs-cz"
 defaultContentLanguage = "cs"
-title = "Můj blog"
+title = "David Sládeček"
 theme = "blog-awesome"
 enableRobotsTXT = true
 
 
 [params]
+
   ShowReadingTime = true
   ShowPostNavLinks = true
   goToTop = true
-  bioName = "Bc. David Sládeček"
-  bioDescription = "Osobní blog, kde sdílím články, poznámky a myšlenky."
-  bioImage = "/images/foto.jpg"
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/dawissl"
+  [params.author]
+    avatar = "images/foto.jpg"
+    name = "Bc. David Sládeček"
+    intro = "Osobní blog"
+    description = "Sdílím články, poznámky a myšlenky."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/dawissl"
+
 
 [outputs]
   home = ["HTML", "RSS"]
