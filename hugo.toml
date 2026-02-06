@@ -1,0 +1,10 @@
+baseURL = "https://tvuj-username.github.io/"
+languageCode = "cs-cz"
+title = "Můj blog"
+theme = "blog-awesome"
+enableRobotsTXT = true
+
+[params]
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+
