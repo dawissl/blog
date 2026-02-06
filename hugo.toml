@@ -1,5 +1,6 @@
 baseURL = "https://tvuj-username.github.io/"
 languageCode = "cs-cz"
+defaultContentLanguage = "cs"
 title = "Můj blog"
 theme = "blog-awesome"
 enableRobotsTXT = true
@@ -7,4 +8,23 @@ enableRobotsTXT = true
 [params]
   ShowReadingTime = true
   ShowPostNavLinks = true
+  goToTop = true
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/dawissl"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  
+[[menu.main]]
+  identifier = "home"
+  name = "Domů"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "O mně"
+  url = "/about/"
+  weight = 10
 

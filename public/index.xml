@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Můj blog</title>
+    <title>Vítej na blogu on Můj blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Můj blog</description>
+    <description>Recent content in Vítej na blogu on Můj blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cs-cz</language>
     <lastBuildDate>Fri, 06 Feb 2026 13:21:55 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -25,7 +25,8 @@
       
       <guid>http://localhost:1313/about/</guid>
       
-      <description></description>
+      <description>&lt;h1 id=&#34;o-mně&#34;&gt;O mně&lt;/h1&gt;
+&lt;p&gt;Jmenuji se David a toto je můj osobní blog&lt;/p&gt;</description>
       
     </item>
     
